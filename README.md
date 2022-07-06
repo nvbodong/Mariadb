@@ -1,4 +1,5 @@
 
+## MariaDB: cmake
 /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug /usr/local/mysql " -DMYSQL_DATADIR=/mydata/data" " -DWITH_INNOBASE_STORAGE_ENGINE=1" " -DWITH_ARCHIVE_STORAGE_ENGINE=1" " -DWITH_BLACKHOLE_STORAGE_ENGINE=1" " -DWITH_READLINE=1" " -DWITH_SSL=system" " -DWITH_ZLIB=system" " -DWITH_LIBWRAP=0" " -DMYSQL_UNIX_ADDR=/var/lib/mysql/mysql.sock" " -DDEFAULT_CHARSET=utf8mb4" " -DDEFAULT_COLLATION=utf8mb4_general_ci" -G "CodeBlocks - Unix Makefiles" -S /tmp/mariadb-10.9.1
 Code status:
 ------------
@@ -78,5 +79,3 @@ https://mariadb.org/about/security-policy/
 
 The code for MariaDB, including all revision history, can be found at:
 https://github.com/MariaDB/server
-# Mariadb
-# Mariadb
